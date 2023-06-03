@@ -27,7 +27,7 @@ def format_time(time):
 
 while True:
     print(f'{timer_type} time left: {format_time(count_down)}', end="\r")
-    time.sleep(0.1)
+    time.sleep(1)
     count_down -= 1
 
     if count_down == 0:
